@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shery Matta - Creative Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing creative projects, skills, and experience">
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Shery Matta</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-accent">Hello, I'm</span>
+                        <br><span class="title-main">Shery Matta</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Creative Designer & Developer</h2>
+                    <p class="hero-description">
+                        I craft beautiful, functional digital experiences that bring ideas to life.
+                        Passionate about creating meaningful connections through design and code.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-palette"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-coffee"></i>
+                            Let's Chat
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="imgs/me.png" alt="Profile Picture">
+                            <div class="image-border"></div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Fresh graduate & passionate full stack developer</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Building Reliable & Scalable Web Solutions</h3>
+                    <p>
+                        I am a fresh graduate from the Faculty of Computer Science and Information Technology,
+                        with a strong passion for software development and problem solving. I enjoy turning
+                        ideas into functional, efficient, and user-friendly applications using modern web
+                        technologies.
+                    </p>
+                    <p>
+                        As a full stack developer, I have experience working with both front-end and back-end
+                        technologies. I am always eager to learn new tools, improve my skills, and build
+                        real-world projects that add value. I’m highly motivated, detail-oriented, and excited
+                        to start my professional journey in the tech industry.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="50">0</h4>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="25">0</h4>
+                            <p class="stat-label">Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="5">0</h4>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-collage">
+                        <div class="collage-item item-1">
+                            <img src="imgs/me2222.jpg" alt="Design Process">
+                        </div>
+                        <div class="collage-item item-2">
+                            <img src="imgs/crm.png" alt="Creative Work">
+                        </div>
+                        <div class="collage-item item-3">
+                            <img src="imgs/christmas.png" alt="Inspiration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Tools and technologies I love working with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Programming & Backend</h3>
+                        <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">Object-Oriented Programming (OOP)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Development</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                            <span class="skill-name">RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                            <span class="skill-percent">78%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">Postman</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">Apache</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Version Control</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web-design">
+                    <div class="project-image">
+                        <img src="imgs/e_commerce.png" alt="E-commerce Website">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>E-commerce Website</h3>
+                                <p>Modern online store with elegant design</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" data-project="1" target="_blank">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://sheshe1571.github.io/Landing_Page/" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>E-commerce Website</h3>
+                        <p>A beautiful, user-friendly online store built with modern design principles</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web-design">
+                    <div class="project-image">
+                        <img src="imgs/portfolio.png" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Portfolio Website</h3>
+                                <p>Personal portfolio for creative professional</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" data-project="4">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Creative Portfolio</h3>
+                        <p>Elegant portfolio website showcasing creative work and expertise</p>
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="photography">
+                    <div class="project-image">
+                        <img src="imgs/real_estate.png" alt="Photo Series">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Real Estate</h3>
+                                <p>Discover the perfect property that fits your lifestyle and budget</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" data-project="5">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Real Estate Landing Page</h3>
+                        <p>Discover the perfect property that fits your lifestyle and budget</p>
+                        <div class="project-tags">
+                            <span class="tag">Real Estate</span>
+                            <span class="tag">Landing Page</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="branding">
+                    <div class="project-image">
+                        <img src="imgs/Landing_page.png" alt="Professional Landing Page">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Professional Landing Page</h3>
+                                <p>Attractive and responsive</p>
+                                <div class="project-links">
+                                    <a href="https://sheshe1571.github.io/Landing_Page/" class="project-link" data-project="6" target="_blank">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="https://sheshe1571.github.io/Landing_Page/" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Professional Landing Page</h3>
+                        <p>Landing page that suits for every business and attractive for many customers</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's chat!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'd love to hear about your project and discuss how we can create something amazing together.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>sherymatta2@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Phone</h4>
+                                <p>+20 107 003 8064</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Location</h4>
+                                <p>Assiut, Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links-large">
+                            <a href="https://www.linkedin.com/in/shery-matta-09850723b/" class="social-link-large">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://wa.me/1070038064" 
+                                class="social-link-large" 
+                                target="_blank" 
+                                rel="noopener">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Whatsapp</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-github"></i>
+                                <span>github</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Shery Matta. Made with <i class="fas fa-heart"></i> and lots of coffee.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-img" src="" alt="Project Image">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modal-title">Project Title</h3>
+                    <p id="modal-description">Project description goes here...</p>
+                    <div class="modal-tags" id="modal-tags"></div>
+                    <div class="modal-links">
+                        <a href="#" class="btn btn-secondary">Live Demo</a>
+                        <a href="#" class="btn btn-primary">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="portfolio-script.js"></script>
+</body>
+</html>
